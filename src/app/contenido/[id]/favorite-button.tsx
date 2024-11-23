@@ -63,3 +63,5 @@ export default function FavoriteButton({ id_contenido, id_perfil, isFavorite, fa
     </form>
   )
 }
+
+
