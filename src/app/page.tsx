@@ -7,7 +7,7 @@ import { IfaceMovie } from '@/components/MovieCarousel'
 import { contenidoDescType, generoType } from '@/lib/types'
 import { cookies } from "next/headers";
 import { redirect } from 'next/navigation'
-
+  
 
 interface Subscription {
   id_suscription: number
@@ -179,3 +179,4 @@ export default async function Home() {
     </div>
   )
 }
+
