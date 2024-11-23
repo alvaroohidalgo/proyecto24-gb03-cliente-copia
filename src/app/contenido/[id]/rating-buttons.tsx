@@ -23,6 +23,7 @@ async function getRating(id_contenido: number, id_perfil: number) {
   }
 }
 
+
 async function handleRating(id_contenido: number, id_perfil: number, thumb_up: boolean, currentRating: { id_rating: number | null, thumb_up: boolean | null } | null) {
   'use server'
 
