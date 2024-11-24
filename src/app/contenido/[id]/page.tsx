@@ -14,7 +14,7 @@ export interface IfaceContenidoDesc {
     portada_url: string;
     trailer_url: string;
 }
-
+  
 export interface Episodio {
     id_contenido: number;
     id_episodio: number;
