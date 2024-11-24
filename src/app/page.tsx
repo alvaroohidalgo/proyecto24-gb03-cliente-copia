@@ -7,7 +7,7 @@ import { contenidoDescType, generoType } from '@/lib/types'
 import { cookies } from "next/headers";
 import { redirect } from 'next/navigation'
   
-
+   
 interface Subscription {
   id_suscription: number
   id_usuario: number
@@ -45,14 +45,7 @@ async function getFeaturedMovie(): Promise<Movie> {
 }
 
 
-// const movies = [
-//   { id: 1, titulo: "The Witcher", portada_url: "/placeholder.svg?height=400&width=300" },
-//   { id: 2, titulo: "Bridgerton", portada_url: "/placeholder.svg?height=400&width=300" },
-//   { id: 3, titulo: "The Crown", portada_url: "/placeholder.svg?height=400&width=300" },
-//   { id: 4, titulo: "Ozark", portada_url: "/placeholder.svg?height=400&width=300" },
-//   { id: 5, titulo: "Narcos", portada_url: "/placeholder.svg?height=400&width=300" },
-//   { id: 6, titulo: "Money Heist", portada_url: "/placeholder.svg?height=400&width=300" },
-// ]
+
 
 async function controlarReproducir(formData: FormData){
   'use server';
