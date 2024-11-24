@@ -3,7 +3,7 @@ import { Bell, ChevronDown, Film, Tv, Users, User, DollarSign } from 'lucide-rea
 
 import TabNavigation from '../../components/tab-navigation'
 
- 
+     
 
 export default async function NetflixAdminDashboard() {
   
