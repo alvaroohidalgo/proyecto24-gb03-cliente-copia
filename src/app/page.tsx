@@ -1,9 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
+
 import { MovieCarousel } from '@/components/MovieCarousel'
 import axios from 'axios'
 import { api_Contenido, api_Personalizacion, api_UsuariosYSuscripciones } from '@/lib/config'
-import { IfaceMovie } from '@/components/MovieCarousel'
+
 import { contenidoDescType, generoType } from '@/lib/types'
 import { cookies } from "next/headers";
 import { redirect } from 'next/navigation'
