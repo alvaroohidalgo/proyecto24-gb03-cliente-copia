@@ -39,3 +39,4 @@ export const enviarReproduccion = async (id_perfil: number, id_contenido: number
         console.error("Error enviando o actualizando historial:", error);
     }
 }
+
