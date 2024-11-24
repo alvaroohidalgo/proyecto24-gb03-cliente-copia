@@ -51,7 +51,7 @@ export default async function SearchResults({ params }: { params: { query: strin
         <h1 className="text-4xl font-bold mb-8">Resultados de búsqueda</h1>
         <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {results.length > 0 && results.map((item) => (
-            <Link href={item.stream_url} key={item.id_contenido} className="group">
+            <Link href={"/contenido/"+item.id_contenido} key={item.id_contenido} className="group">
               <div className="relative aspect-[3/3]  overflow-hidden rounded-lg">
                 <img
                   src={item.portada_url}
