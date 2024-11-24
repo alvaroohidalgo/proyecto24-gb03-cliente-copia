@@ -7,7 +7,7 @@ import { redirect } from "next/navigation"
 import { cookies } from "next/headers"
 import { perfilType } from "@/lib/types"
 
-
+   
 
 const avatars = [
   '/images/avatar1.webp',
