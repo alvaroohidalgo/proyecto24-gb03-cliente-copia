@@ -1,9 +1,5 @@
 'use client'
 import { enviarReproduccion } from '@/app/actions/reproducir'
-import { Button } from '@/components/ui/button'
-import { api_Personalizacion } from '@/lib/config'
-import { contenidoDescType } from '@/lib/types'
-import axios from 'axios'
 import { PlayCircle } from 'lucide-react'
 
 
