@@ -12,7 +12,7 @@ const login = async (formData: FormData) => {
     const email = formData.get('email')
     const password = formData.get('password')
     console.log(email, password)
-    var success = false
+    let success = false
     try {
         const cookieStore = await cookies();
         const session = cookieStore.get('session');
