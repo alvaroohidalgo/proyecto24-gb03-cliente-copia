@@ -36,7 +36,7 @@ export default function Series({ episodios }: SeriesProps) {
                                             <div className="absolute inset-0 bg-black" />
                                             <div className="absolute inset-1">
                                                 <img
-                                                    src={`/placeholder.svg?height=400&width=600&text=E${episodio.num_episodio}`}
+                                                    src={`${episodio.stream_url}`}
                                                     alt={`Episodio ${episodio.num_episodio}`}
                                                     className="rounded bg-black object-cover w-full h-full"
                                                 />
