@@ -1,14 +1,14 @@
 import axios from 'axios';
 import { notFound } from 'next/navigation'
 import { PlayCircle, Info, Star, Clock, Calendar } from 'lucide-react'
-import { api_Contenido, api_Personalizacion } from '@/lib/config';
+import { api_Contenido, api_Personalizacion  } from '@/lib/config';
 import { IfaceContenidoDesc } from './page';
 import BotonReproducir from './BotonReproducir';
 import FavoriteButton from './favorite-button';
 import RatingButtons from './rating-buttons';
 import { cookies } from 'next/headers';
 
-import {  api_UsuariosYSuscripciones } from '@/lib/config'
+
 
 interface Actor {
   id_actor: number;
