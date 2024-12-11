@@ -7,7 +7,7 @@ interface FavoriteButtonProps {
   id_perfil: number
   isFavorite: boolean
   favoriteId: number | null
-}
+}          
 
 async function toggleFavorite(id_contenido: number, id_perfil: number, currentStatus: boolean, favoriteId: number | null) {
   'use server'
@@ -63,3 +63,5 @@ export default function FavoriteButton({ id_contenido, id_perfil, isFavorite, fa
     </form>
   )
 }
+
+
