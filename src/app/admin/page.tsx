@@ -3,11 +3,11 @@ import { Bell, ChevronDown, Film, Tv, Users, User, DollarSign } from 'lucide-rea
 
 import TabNavigation from '../../components/tab-navigation'
 
- 
+     
 
 export default async function NetflixAdminDashboard() {
   
-
+  
   return (
     <div className="min-h-screen bg-[#141414] text-white">
       <nav className="flex items-center justify-between px-6 py-4 bg-gradient-to-b from-black to-transparent">
@@ -36,3 +36,4 @@ export default async function NetflixAdminDashboard() {
     </div>
   )
 }
+
