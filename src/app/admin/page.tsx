@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import { Bell, ChevronDown, Film, Tv, Users, User, DollarSign } from 'lucide-react'
+import { Bell, ChevronDown, Users, User, DollarSign } from 'lucide-react'
 
 import TabNavigation from '../../components/tab-navigation'
 
